@@ -1,0 +1,17 @@
+#!/bin/sh
+#
+
+if ! which python2 &>/dev/null
+then
+	# Maybe it's Mac OS X, there it will by python2.7, but not python2!
+	if which python2.7 &>/dev/null
+	then
+		python2.7 -m show_my_ip.__init__ $@
+	else
+		echo "No Python found." >&2
+		exit 2
+	fi
+else
+	python2 -m show_my_ip.__init__ $@
+fi
+
