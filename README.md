@@ -3,7 +3,7 @@ show-my-ip
 
 A simple tool to display your IP address, both local (LAN) and global (Internet)
 
-[![Code Health](landscape.io/github/malte70/show-my-ip/master/landscape.png)](landscape.io/github/malte70/show-my-ip/master)
+[![Code Health](https://landscape.io/github/malte70/show-my-ip/master/landscape.png)](https://landscape.io/github/malte70/show-my-ip/master)
 
 Requirements
 ------------
